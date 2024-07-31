@@ -1,5 +1,5 @@
 'use client'
-import Button1 from "./button1"
+import Button1 from "./Button1"
 
 
 function Header() {
