@@ -1,10 +1,12 @@
 import React from 'react'
 
-function Main() {
+function page() {
   return (
     <div>
-	 
+	 Hello There
     </div>
   )
 }
+
+export default page
 
