@@ -1,15 +1,10 @@
-'use client'
-import Button1 from "./Button1"
-
+import React from 'react'
 
 function Header() {
   return (
-    <div className="flex justify-evenly items-center py-9 px-4">
-	 <div className="flex justify-center items-center p-3"></div>
-	 <div className="flex justify-between items-center">
-		<Button1 />
-	 </div>
-	 <div className="flex justify-between items-center p-3"></div>
+    <div className='flex justify-evenly items-center w-screen h-[136px]'>
+	 <h1>Jomyam</h1>
+	 
     </div>
   )
 }

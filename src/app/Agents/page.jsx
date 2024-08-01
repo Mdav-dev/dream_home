@@ -1,5 +1,5 @@
 import React from 'react'
-import Experience_cards from '@/components/Experience_cards'
+import Experience_cards from '@/components/Majors/Experience_cards'
 function page() {
   return (
     <div>

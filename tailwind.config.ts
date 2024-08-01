@@ -13,6 +13,8 @@ const config: Config = {
         custom2: '#DDC7BB',
         custom3: '#4F3527',
         custom4: '#695346',
+        custom5: '#FFC71E',
+        custom6: '#FBF5F1',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
