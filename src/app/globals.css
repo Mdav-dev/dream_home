@@ -4,8 +4,8 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: #FBF5F1;
+  --background-end-rgb: #FBF5F1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +17,14 @@
   }
 }
 
+.font-primary {
+  @apply text-custom1 font-font1 font-bold text-5xl
+}
+.image-style {
+  object-fit: cover;
+  object-position: center;
+}
+
 body {
   color: rgb(var(--text-color));
   background: linear-gradient(
@@ -26,7 +34,12 @@ body {
     )
     rgb(var(--background-start-rgb));
     padding: 0;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
 }
+/* main {
+  overflow: hidden;
+} */
 
 @layer utilities {
   .text-balance {

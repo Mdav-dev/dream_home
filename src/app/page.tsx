@@ -4,11 +4,23 @@ import Filter_card from "@/components/Filter_card";
 import Residence_card from "@/components/Majors/Residence_card";
 import Custom from "./Custom";
 import Header from "@/components/Header";
+import Sign_button from "@/components/Minors/Sign_button";
 
 export default function Home() {
   return (
-      <main className="bg-white w-screen h-96">
+      <main className="bg-white w-screeen flex flex-col justify-start items-center">
         <Header />
+        <div className={`flex justify-between items-start h-lvh w-screen px-4 `}>
+          <div className={`flex flex-col justify-start items-start gap-10 px-4 pl-10`}>
+            <h1 className="font-primary">Find Your Dream Home</h1>
+            <h4>Explore our curated selection of exquisite<br/>properties mericulously tailored to your<br/>unique dream home vision</h4>
+            <Sign_button name = "Sign Up" size = "large"/>
+          </div>
+          <img 
+          className="p-0 w-3/5 h-full image-style" 
+          src="https://images.unsplash.com/photo-1719317579340-9df7e3dfb441?ixid=M3w2Mzg3NTd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0Njk5Njh8&ixlib=rb-4.0.3" 
+          alt="" />
+        </div>
         <Filter_card />
         <p>Make space for the KIng</p>
         <Experience_cards
@@ -21,7 +33,7 @@ export default function Home() {
           src = "https://images.unsplash.com/photo-1719317579340-9df7e3dfb441?ixid=M3w2Mzg3NTd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0Njk5Njh8&ixlib=rb-4.0.3"
           alt = "This is a comment image"
           pic =  "https://images.unsplash.com/photo-1719317579340-9df7e3dfb441?ixid=M3w2Mzg3NTd8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0Njk5Njh8&ixlib=rb-4.0.3"
-          pic_alt = ""
+          pic_alt = "This is a comment image"
           name = "Sofia Lakes"
           location = "Michigan USA"
           rate = "4"
