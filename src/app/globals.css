@@ -18,7 +18,10 @@
 }
 
 .font-primary {
-  @apply text-custom1 font-font1 font-bold text-5xl
+  @apply text-custom1 font-sans font-bold 
+}
+.font-para {
+  @apply  text-custom1 font-sans font-bold text-prgh
 }
 .image-style {
   object-fit: cover;

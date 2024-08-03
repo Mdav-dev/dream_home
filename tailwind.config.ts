@@ -24,6 +24,13 @@ const config: Config = {
       fontFamily:{
         font1: 'Montserrat',
       },
+      height: {
+        home: '500px'
+      },
+      fontSize: {
+        prgh: '18px',
+        stat: '48px'
+      }
     },
   },
   plugins: [],
